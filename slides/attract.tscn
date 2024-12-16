@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://ry1m75d3lmiw"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_gmpix"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_gmpix")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 320.0
+color = Color(0.0893716, 1.39579e-06, 0.463108, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 320.0
+theme_override_colors/font_color = Color(0.298364, 0.429981, 0.926341, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 0.64342, 0.129339, 1)
+theme_override_constants/shadow_offset_x = 7
+theme_override_constants/shadow_offset_y = 6
+theme_override_constants/outline_size = 7
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 66
+text = "Welcome
+to the
+MONSTER BASH"
+horizontal_alignment = 1
+vertical_alignment = 1
